@@ -11,9 +11,12 @@ Part of my engineering project - inspection vehicle on-board computer software.
 
 ### ! The program must be run as root. Command to run: sudo python3 <program_name.py>. This is required by the neopixel library that supports the LED ring !
 
-<br /><br />  
+<br />
+
 The on-board computer was prepared for the pipeline visual inspection vehicle. Such a device is designed to record images from the pipeline. Movable structure allows to take turns with a constant engine control value.
-<br /><br />  
+<br />
+
 The main tasks, which are switching on the lighting, starting the engines and recording, are triggered by pressing the first button, which should be done after placing the vehicle in the pipe. Pressing another button, which should be done after the vehicle leaves the other side of the pipeline, will turn off the lighting, stop the engines and stop recording.
-<br /><br />  
+<br />
+
 The third button is for "safe" shutdown of the minicomputer.
