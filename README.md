@@ -17,6 +17,7 @@ The on-board computer was prepared for the pipeline visual inspection vehicle. S
 <br />
 
 The main tasks, which are switching on the lighting, starting the engines and recording, are triggered by pressing the first button, which should be done after placing the vehicle in the pipe. Pressing another button, which should be done after the vehicle leaves the other side of the pipeline, will turn off the lighting, stop the engines and stop recording.
+
 <br />
 
 The third button is for "safe" shutdown of the minicomputer. This is useful to use it after the inspection is completed if you put the RPi in the vehicle and add the program start command to the rc.local file (the program will start when the system boots, which will happen when the power source is connected to the minicomputer). A sliding or rocker switch should be placed between the RPi and the power source to control the connection to the power supply.
